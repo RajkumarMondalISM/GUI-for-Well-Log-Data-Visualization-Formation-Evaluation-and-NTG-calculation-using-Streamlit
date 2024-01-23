@@ -174,13 +174,13 @@ if las_file:
     
                 b7=st.checkbox("Sw using Archie's Equation")
                 if b7:
-                    b8=st.number_input("pick a number for a value",key='b8')
+                    b8=st.number_input("pick a number for "a" value",key='b8')
                     if b8:
-                        b9=st.number_input("pick a number for n value",key='b9')
+                        b9=st.number_input("pick a number for "n" value",key='b9')
                         if b9:
-                            b10=st.number_input("pick a number for m value",key='b10')
+                            b10=st.number_input("pick a number for "m" value",key='b10')
                             if b10:
-                                b11=st.number_input("pick a number for Rw value",key='b11')
+                                b11=st.number_input("pick a number for "Rw" value",key='b11')
                                 if b11:
                                     def Sw(a,n,m,Rw,Rt,phi):
                                         return ((a*Rw)/((phi**m)*Rt))**(1/n)

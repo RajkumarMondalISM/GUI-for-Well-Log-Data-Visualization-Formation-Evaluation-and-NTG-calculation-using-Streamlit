@@ -3,3 +3,8 @@ numpy
 pandas
 pydeck
 streamlit
+matplotlib
+pandas
+seaborn
+plotly
+lasio

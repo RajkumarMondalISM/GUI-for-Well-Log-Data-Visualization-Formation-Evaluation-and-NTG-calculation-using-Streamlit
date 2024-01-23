@@ -9,7 +9,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 st.title("welcome ladies, Gentelman and Others")
-st.header("Petrophysical Measerment analysis and visualisation")
+st.header("Petrophysical Measurement analysis and visualisation")
 st.subheader("Using python")
 #text=st.button("click")
 st.markdown("please see your log short notation and then change in Las log Name Changer section after Data Statistics as following - DEPTH(depth), CALI(Caliper),GR(gamma ray),NPHI(porosity),RHOB(density),RESD(deep resistivity Rt),RESS(shallow resistivity Rx0)")

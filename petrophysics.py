@@ -505,11 +505,11 @@ if las_file:
                                         def Sw(a,n,m,Rw,Rt,phi):
                                             return ((a*Rw)/((phi**m)*Rt))**(1/n)
                                         x111=Sw(b811,b911,b1011,b1111,df["RESD"],df["NPHI"])
-                                        b41=st.number_input("pick a number for porosity cutoff",key="b41")
+                                        b41=st.number_input("pick a number for porosity cutoff in fraction ",key="b41")
                                         if b41:
-                                            b51=st.number_input("pick a number for water saturation cut off",key="b51")
+                                            b51=st.number_input("pick a number for water saturation cut off in fraction",key="b51")
                                             if b51:
-                                                b61=st.number_input("pick a number for Vsh cutoff",key="b61")
+                                                b61=st.number_input("pick a number for Vsh cutoff in fraction",key="b61")
                                                 if b61:
 
                                                     CONDITION_MET = ((modified_las['NPHI'] > b41) & (x111 < b51) & (x0<b61)).astype(int)

@@ -494,13 +494,13 @@ if las_file:
                         def Vsh(GRmin,GRmax,GRlog):
                             return ((GRlog-GRmin)/(GRmax-GRmin))
                         x0=Vsh(gr_5_percentile,gr_95,df["GR"])
-                        b811=st.number_input("pick a number for a value",key="b811")
+                        b811=st.number_input("pick a number for a value for Sw calculation",key="b811")
                         if b811:
-                            b911=st.number_input("pick a number for n value",key="b911")
+                            b911=st.number_input("pick a number for n value for Sw calculation",key="b911")
                             if b911:
-                                b1011=st.number_input("pick a number for m value",key="b1011")
+                                b1011=st.number_input("pick a number for m value for Sw calculation",key="b1011")
                                 if b1011:
-                                    b1111=st.number_input("pick a number for Rw value",key="b1111")
+                                    b1111=st.number_input("pick a number for Rw value for Sw calculation",key="b1111")
                                     if b1111:
                                         def Sw(a,n,m,Rw,Rt,phi):
                                             return ((a*Rw)/((phi**m)*Rt))**(1/n)

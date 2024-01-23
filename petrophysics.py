@@ -174,13 +174,13 @@ if las_file:
     
                 b7=st.checkbox("Sw using Archie's Equation")
                 if b7:
-                    b8=st.number_input("pick a number for "a" value",key='b8')
+                    b8=st.number_input("pick a number for A value",key='b8')
                     if b8:
-                        b9=st.number_input("pick a number for "n" value",key='b9')
+                        b9=st.number_input("pick a number for n value",key='b9')
                         if b9:
-                            b10=st.number_input("pick a number for "m" value",key='b10')
+                            b10=st.number_input("pick a number for m value",key='b10')
                             if b10:
-                                b11=st.number_input("pick a number for "Rw" value",key='b11')
+                                b11=st.number_input("pick a number for Rw value",key='b11')
                                 if b11:
                                     def Sw(a,n,m,Rw,Rt,phi):
                                         return ((a*Rw)/((phi**m)*Rt))**(1/n)
@@ -375,7 +375,7 @@ if las_file:
                         st.pyplot(fig)
                     b19=st.checkbox("Sw using Archie equation")
                     if b19:
-                        b81=st.number_input("pick a number for a value",key="b81")
+                        b81=st.number_input("pick a number for A value",key="b81")
                         if b81:
                             b91=st.number_input("pick a number for n value",key="b91")
                             if b91:
@@ -496,7 +496,7 @@ if las_file:
                         def Vsh(GRmin,GRmax,GRlog):
                             return ((GRlog-GRmin)/(GRmax-GRmin))
                         x0=Vsh(gr_5_percentile,gr_95,df["GR"])
-                        b811=st.number_input("pick a number for a value for Sw calculation",key="b811")
+                        b811=st.number_input("pick a number for A value for Sw calculation",key="b811")
                         if b811:
                             b911=st.number_input("pick a number for n value for Sw calculation",key="b911")
                             if b911:

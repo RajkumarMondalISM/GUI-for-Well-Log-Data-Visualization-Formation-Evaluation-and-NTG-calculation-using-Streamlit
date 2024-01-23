@@ -122,7 +122,7 @@ if las_file:
                 return las
 
             st.title("LAS Log Name Changer")
-            st.subhheader(" change the log names according to above note otherwise error will occurs")
+            st.subheader(" change the log names according to above note otherwise error will occurs")
             if las_file:
                 log_name_mapping = {}
 

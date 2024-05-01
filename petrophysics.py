@@ -8,7 +8,7 @@ import io
 import plotly.express as px
 import plotly.graph_objects as go
 
-st.title("Welcome ladies, Gentleman and Others.")
+st.title("Welcome ladies, Gentleman and Others")
 st.header("Petrophysical Measurement Analysis and Visualisation")
 st.subheader("Using Python")
 #text=st.button("click")

@@ -1,6 +1,6 @@
 # Welcome to streamlit
 
-Check it out on [Streamlit Community Cloud](https://rajkumarpetrophysicsgui.streamlit.app/)
+Check it out on (https://rajkumarpetrophysicsgui.streamlit.app/)
 
 Project Overview
 
